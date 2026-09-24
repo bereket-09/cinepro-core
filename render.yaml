@@ -18,6 +18,8 @@ services:
             value: 'true'
           - key: CORS_ORIGIN
             value: '*'
+          - key: PUBLIC_URL
+            value: 'https://cinepro-core-rk2r.onrender.com'
           - key: MCP_ENABLED
             value: 'true'
           - key: TMDB_API_KEY
